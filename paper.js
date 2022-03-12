@@ -14,7 +14,7 @@ class paper{
         World.add(world, this.body);
     }
     display(){
-        var paperPos=this,body,position;
+        var paperPos=this.body.position;
         push();
         translate(paperPos.x, paperPos.y);
         imageMode(CENTER);
